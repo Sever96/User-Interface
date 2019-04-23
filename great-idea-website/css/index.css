@@ -68,6 +68,9 @@ h1, h2, h3, h4, h5 {
 	color: red; 
 	display: inline-block;
 }
+.button {
+	width: 50%; 
+}
 .top-content {
 	display: inline-block; 
 }
