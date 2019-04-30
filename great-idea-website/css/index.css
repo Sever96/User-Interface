@@ -64,3 +64,66 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+* {
+	box-sizing: border-box;
+}
+html {
+	box-sizing: border-box;
+}
+.container-everything {
+	margin: 0 auto; 
+}
+.container {
+	display: flex;
+	margin-bottom: 20px;   
+}
+.container nav {
+	margin-bottom: 20px; 
+}
+.container nav a {
+	margin-right: 30px; 
+	color: grey; 
+	text-decoration: none; 
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+ h1 {
+    font-size: 60px
+ }
+.header-1 {
+    display: flex;
+     justify-content: center;
+     margin-bottom: 40px;
+     }
+.header-1 .left-header{
+       padding-top: 60px;
+       padding-right: 80px;
+    }
+
+.header-1 .cta-button {
+    display: flex;
+    justify-content: center;
+	margin: 10px;
+	border: 2px solid black; 
+	text-decoration: none; 
+	padding: 10px; 
+	color: black; 
+ }
+
+.container-feature-about {
+	display: flex;
+	margin-bottom: 20px; 
+	justify-content: center; 
+}
+.container-services-product-vision {
+	display: flex; 
+	margin-top: 20px; 
+	justify-content: center; 
+}
+#copyright {
+	text-align: center; 
+}
